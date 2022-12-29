@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "tailwind": "npx tailwindcss -i ./static/app.css -o ./assets/css/main.css --watch"
   },
   "dependencies": {
     "core-js": "^3.25.3",
