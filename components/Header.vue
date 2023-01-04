@@ -13,7 +13,7 @@
                     SALLE DE GYM
                 </li>
                 <li class="hover:opacity-75 text-white cursor-pointer" @click="$router.push('/about')">ENTRAINEMENT</li>
-                <li class="hover:opacity-75 text-white cursor-pointer"  @click="$router.push('/detail')">POURQUOI ADHÉRER</li>
+                <li class="hover:opacity-75 text-white cursor-pointer"  @click="$router.push('/adherer')">POURQUOI ADHÉRER</li>
                 <li  class="hover:opacity-75 text-white cursor-pointer"  @click="$router.push('/')">CONTACT</li>
                 <li class="hover:opacity-75 text-white cursor-pointer"  @click="$router.push('/')">EMPLACEMENTS</li>
             </ul>

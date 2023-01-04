@@ -1,24 +1,25 @@
 <template>
-   <div class="flex flex-col gap-6 container mx-auto   justify-between" >
+    <div>
+      <div class="flex flex-col gap-4 container mx-auto  justify-between" >
         <div class="py-10 font-bold  flex flex-row justify-center">
-          <h1 class="text-5xl text-center">Prestations de Coaching et <br> d’Entraînements</h1>
+          <h1 class="text-5xl text-center">Prestations de Coaching et <br> d'Entraînements</h1>
         </div>
 
         <div class=" flex flex-row justify-center">
-            <h1 class="text-base text-center">Que vous soyez novice en sport ou un professionnel du fitness, nous sommes là pour vous proposer une variété d’options d’entraînements, des conseils et
-                <br> un soutien convivial pour vous aider à rester sur la bonne voie et à atteindre vos objectifs. Obtenez une meilleure forme dès aujourd’hui !
+            <h1 class="text-base text-center">Que vous soyez novice en sport ou un professionnel du fitness, nous sommes là pour vous proposer une variété d'options <br> d'entraînements,  des conseils et
+                un soutien convivial pour vous aider à rester sur la bonne voie et à atteindre vos objectifs.<br> Obtenez une meilleure forme dès aujourd'hui !
             </h1>
         </div>
 
         <div class="flex flex-row justify-center text-lg py-10 px-8">
-            <button @click="$router.push('/')" class="text-black bg-white  border-black  px-6 py-4 rounded-full  cursor-pointer hover:bg-gray-500 hover:text-white border-2">
+            <button @click="$router.push('/')" class="text-black bg-white  border-black  px-6 py-4 rounded-full  cursor-pointer hover:bg-indigo-900 hover:text-white border-2">
                 TROUVER VOTRE SALLE DE GYM LA PLUS PROCHE
             </button>
         </div>
 
-        <div class="flex flex-row justify-center mx-32 gap-8 mb-32">
-            <div   class="flex flex-col justify-start shadow-2xl">
-                <img src="http://sites.edb.utexas.edu/uploads/sites/87/2016/08/Exercise-RX-1024x678.jpg" alt="" class="border-black w-30 h-50 ">
+        <div class="flex flex-row justify-center  gap-8 mb-32">
+            <div   class="flex flex-col justify-start shadow-xl w-1/2">
+                <img class="border-black w-full h-[30vh] " src="http://sites.edb.utexas.edu/uploads/sites/87/2016/08/Exercise-RX-1024x678.jpg" alt="" >
 
                 <div class="flex flex-col text-base text-center px-3 pt-6  py-4 justify-center gap-4 ">
                   <h1 class="text-base text-center font-bold"> CONSULTATION FITNESS
@@ -29,20 +30,20 @@
                 </div>
             </div>
 
-            <div   class="flex flex-col justify-start shadow-2xl">
-                <img src="http://sites.edb.utexas.edu/uploads/sites/87/2016/08/Exercise-RX-1024x678.jpg" alt="" class="border-black w-30 h-50 ">
+            <div  class="flex flex-col justify-start shadow-2xl w-1/2">
+                <img class="border-black w-full h-[30vh] " src="https://images.pexels.com/photos/4058411/pexels-photo-4058411.jpeg" alt="" >
 
                 <div class="flex flex-col text-base text-center px-3 pt-6  py-4 justify-center gap-4 ">
-                  <h1 class="text-base text-center font-bold">ENTRAÎNEMENTS <br> INDIVIDUELS
+                  <h1 class="text-base text-center font-bold">ENTRAÎNEMENTS INDIVIDUELS
                     </h1>
                     <h1 class="text-xs font-medium text-center ">
-                        Entraînements individuels personnalisés avec un coach personnel certifié, conditionné pour vous rendre plus fort de manière intrinsèque.
+                        Entraînements individuels personnalisés avec un coach personnel certifié, conditionné pour vous rendre plus fort de manière intrinsèque, ça permet d'aller encore plus vite dans votre objectif.
                     </h1>
                 </div>
             </div>
 
-            <div   class="flex flex-col justify-start shadow-2xl">
-                <img src="http://sites.edb.utexas.edu/uploads/sites/87/2016/08/Exercise-RX-1024x678.jpg" alt="" class="border-black w-30 h-50 ">
+            <div   class="flex flex-col justify-start shadow-2xl w-1/2">
+                <img class="border-black w-full h-[30vh] " src="https://images.pexels.com/photos/864990/pexels-photo-864990.jpeg" alt="" >
 
                 <div class="flex flex-col text-base text-center px-3 pt-6  py-4 justify-center gap-4 ">
                   <h1 class="text-base text-center font-bold"> COURS COLLECTIFS
@@ -55,7 +56,20 @@
 
         </div>
 
-   </div>
+
+
+      </div>
+
+      <div class="py-10  bg-gray-300 flex flex-col justify-center">
+        <h1 class="text-base text-center">Découvrez les prestations d’entraînements proposées dans votre club de sport du quartier.<br>Nous avons hâte de vous rencontrer !</h1>
+        <div class="flex flex-row justify-center font-bold text-sm py-8 px-8">
+          <button @click="$router.push('/')" class="text-black bg-white  border-black  px-6 py-4 rounded-full  cursor-pointer hover:bg-indigo-900 hover:text-white border-2">
+                TROUVER VOTRE SALLE DE GYM
+           </button>
+        </div>
+      </div>
+
+    </div>
 </template>
 
   <script>
